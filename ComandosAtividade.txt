@@ -1,0 +1,15 @@
+mkdir curso-git-embarcatech
+cd curso-git-embarcatech
+git init
+git config user.name "Samara Revoredo"
+git config user.email "samararevoredo15@hotmail.com"
+echo "Samara Revoredo da Silva" > DadosAluno.txt
+echo "Matricula: 20251ZL00130028" >> DadosAluno.txt
+git add DadosAluno.txt
+git commit -m "Atividade 01 - Dados do aluno"
+git remote add origin https://github.com/SamaraRevoredo/curso-git-embarcatech.git
+git push -u origin main
+nano ComandosAtividade.txt
+git add ComandosAtividade.txt
+git commit -m "Envio dos comandos da atividade"
+git push -u origin main
